@@ -28,6 +28,9 @@ from diffusers import DiffusionPipeline, FlowMatchEulerDiscreteScheduler, TorchA
 import math
 from openai import OpenAI
 
+# OpenAI key
+openai = 
+
 currentPath = str(Path(__file__).resolve().parents[2])
 sys.path.insert(0, currentPath)
 
